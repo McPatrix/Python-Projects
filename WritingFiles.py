@@ -1,4 +1,4 @@
-
+import docx
 warhammer = open("Practice.txt", "a")
 warhammer.write("\nWarhammer is great! I like Space Marines!")
 warhammer.close()
@@ -18,3 +18,6 @@ warhammer = open("Warhammer2.txt", "w")
 warhammer.write("I hope they come out with Warhammer 2!")
 
 # You can write other files besides .txt, such as HTML.
+
+# Using Modules (this is docx)
+docx.HeaderPart
